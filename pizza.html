@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jan's pizza</title>
+    <link rel="shortcut icon" href="icon-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+<center><h1>Saya menjual pizza enak dan murah</h1></center>
+    <center><p> <i>pizza cepat sampai kerumah anda 🍕</i> </p></center>
+    <table>
+        <nav>
+        <a href="#contact">Kontak kami|</a>
+        <a href="#Menu">Daftar menu|</a> 
+        <a href="#order">Pesan sekarang|</a>
+        <hr>
+    </nav>
+    </table>
+</header>
+<!-- section -->
+<section>
+<h2>promo hari ini</h2>
+<img src="promo.jpg" alt="ini gambar promo" width="400">
+<p><mark>Buy 1 get 1</mark>untuk semua pizza dengan ukuran large</p>
+<ul>
+    <li>di buat dengan bahan-bahan terbaik</li>
+    <li>saos dan mayo homemade</li>
+    <li>roti empuk dan tidak keras</li>
+</ul>
+</section>
+
+<!-- section menu -->
+ <section id="menu">
+    <h3>Menu kami</h3>
+    <table border="1">
+        <tr>
+            <th>nama</th>
+            <th>ukuran</th>
+            <th>harga</th>
+        </tr>
+        <tr>
+            <td>pizza makaroni</td>
+            <td>kecil</td>
+            <td>100k</td>
+        </tr>
+                <tr>
+            <td>pizza sosis mozza</td>
+            <td>sedang</td>
+            <td>200k</td>
+        </tr>
+                <tr>
+            <td>pizza bakso mayo</td>
+            <td>besar</td>
+            <td>350k</td>
+        </tr>
+    </table>
+ </section>
+ <!-- section : Order form -->
+  <section id="Order">
+    <h3>Pesan disini</h3>
+    <form action="https://formspree.io/f/xppaagov" method="post">
+        <label for="pemesan">Nama anda:</label> <br>
+        <input type="text" value="Nama anda" name="Nama anda"> <br><br>
+
+        <label for="">Email anda</label> <br>
+        <input type="email" name="email"> <br><br>
+
+    
+        <label for="ukuran">Ukuran pizza</label> <br>
+        <select id="ukuran" name="ukuran">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+        </select> <br><br>
+        
+        <label for="">Pilih toping</label>
+        <br><input type="checkbox" id="topping" name="Topping" value="mozzarella"> mozzarella
+        <br><input type="checkbox" id="topping" name="Topping" value="mashrom"> mashrom
+        <br><input type="checkbox" id="topping" name="Topping" value="beef"> beef <br><br>
+
+        <label for="">Pilih jenis saus:</label> <br>
+        <input type="radio" name="saus" id="saus" value="saus pedas"> saus pedas
+        <input type="radio" name="saus" id="saus" value="saus tomat"> saus tomat
+        <input type="radio" name="saus" id="saus" value="saus mayo"> saus mayo <br><br>
+
+        <label for="catatan" value="catatan">catatan</label> 
+        <br><textarea name="" id=""cols="45" rows="6"></textarea>
+
+        <br><br><button type="submit">pesan sekarang</button>
+
+    </form>
+  </section>
+  <!-- section : contact -->
+   <section id="contact">
+    <h3>Kontak kami</h3>
+    <p>📍 Perumahan Grand resideence city, kab. Bekasi</p>
+    <p>📞 <a target="_blank" href="https://wa.me/6285111602010?text=Halo%20Saya%20Mau%20Pesan%20Pizza">(+62)851-1160-2010</a></p>
+    <p>📩 <a target="_blank" href="mailto:razzantsaqif1404@gmail.com">razzantsaqif1404@gmail.com</a></p>
+   </section>
+   </section>
+
+   <!-- footer -->
+    <footer>
+        <hr>
+        <p> &copy;jan's pizza 2026. Reserved. All right Reserved</p>
+    </footer>
+
+</body>
+</html>

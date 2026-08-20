@@ -79,31 +79,31 @@ form {
     border: 2px solid rgb(14, 1, 26);
     border-radius: 25px;
     background-color: bisque;
-    padding: 5px;
+    padding: 20px;
 }
 
-form input [type="text"],
-form input [type="email"],
+input[type="text"],
+input[type="email"],
 select{
-    width: 100px;
-    padding: 6px 3px;
-    margin-top: 10%;
-    border: 1% solid rgb(214, 17, 17);
-    border-radius: 5%;
-
+    width: 100%;
+    padding: 8px 3px;
+    margin-top: 10px;
+    border: 2px solid rgb(214, 17, 17);
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 form input[type="checkbox"],
-form input[type="radio"],
+form input[type="radio"] {
     margin-right: 2%;
+}
 textarea {
     width: 100%;
-    padding: 100%;
 }
 
 label {
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -128,11 +128,7 @@ button[type="submit"] {
 
 }
 
-#contact a:hover {
-    color: blueviolet;
-}
-
 /* footer.css */
 footer{
-    background-color: aqua;
+    background-color: chocolate;
 }
